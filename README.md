@@ -31,3 +31,5 @@ Neste projeto foram tratados os assuntos:
 * Como adicionar módulos ao React, como os módulos;
 * Redux;
 * Deploy na Nuvem.
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9e0c3b12-b890-4e57-9237-596e39e79d4e/deploy-status)](https://app.netlify.com/sites/restaurants-search-dio-didi/deploys)
