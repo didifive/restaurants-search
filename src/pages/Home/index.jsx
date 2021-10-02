@@ -98,7 +98,7 @@ const Home = () => {
               <Text size="medium">{restaurantSelected?.formatted_address}</Text>
               <Text size="medium">
                 {restaurantSelected?.opening_hours?.open_now
-                  ? 'Aberto agora :)'
+                  ? 'Está aberto agora aproveite!'
                   : 'Fechado neste momento :('}
               </Text>
             </>

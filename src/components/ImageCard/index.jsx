@@ -31,7 +31,7 @@ export default ({ restaurant }) => {
     <>
       {imageLoaded ? (
         <Card photo={image}>
-          <Text size="medium" color="#ffffff">
+          <Text size="small" color="#ffffff">
             {restaurant.name}
           </Text>
         </Card>

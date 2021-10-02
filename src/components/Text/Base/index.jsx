@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import TextLarge from '../Large';
 import TextMedium from '../Medium';
+import TextSmall from '../Small';
 
 const BaseText = styled.p`
   line-height: 14px;
@@ -14,6 +15,7 @@ const BaseText = styled.p`
 
   ${({ size }) => size === 'large' && TextLarge};
   ${({ size }) => size === 'medium' && TextMedium};
+  ${({ size }) => size === 'small' && TextSmall};
 `;
 
 export default BaseText;
